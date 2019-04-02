@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="resources/css/style.css">
+    </head>
+    <body>
+        <div id="welcome">
+            <h2>Bem Vindo ao Jogo da Forca!</h2>
+            <h3>Vamos Jogar!</h3>
+            <br>
+            <a href="#" id="startGame" class="btn">Iniciar</a>
+        </div>
+        
+        <div id="gameplay">
+            Contador:
+            <div id="counter">5</div>
+            <br>
+            <div id="hiddenWord"></div>
+            <br>
+            <form>
+                <input name="playerHint" id="playerHint" placeholder="Digite uma letra.">
+                <a href="#" id="btnHint" class="btn">ok!</a>
+            </form>
+            
+        </div>
+        
+        <script src="resources/js/connection.js"></script>
+        <script src="resources/js/hangman.js"></script>
+    </body>
+</html>
